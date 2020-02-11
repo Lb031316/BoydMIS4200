@@ -20,5 +20,9 @@ namespace BoydMIS4200.DAL
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Vet> vets { get; set; }
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<Appointment> Appointments { get; set; }
+        public DbSet<AppointmentDetail> AppointmentDetails { get; set; }
     }
 }
